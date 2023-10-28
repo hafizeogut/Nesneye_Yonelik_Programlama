@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Nesneye_Yonelik_Programlama/00_Nesneye_Yonelik_Programlama_Ders_Uygulamalari/03_Fonksiyonun_Asiri_Yuklenmesi",
+      "program": "c:/Nesneye_Yonelik_Programlama/00_Nesneye_Yonelik_Programlama_Ders_Uygulamalari/03_Fonksiyonun_Asiri_Yuklenmesi/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
