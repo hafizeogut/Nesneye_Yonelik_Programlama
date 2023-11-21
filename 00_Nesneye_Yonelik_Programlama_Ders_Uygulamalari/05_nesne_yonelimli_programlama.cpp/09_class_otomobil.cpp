@@ -17,7 +17,6 @@ public:
     // Vergi hesaplayan fonksiyon
     int verHes(int, bool);
 };
-
 // Araba özelliklerini ayarlayan fonksiyonun tanımı
 void Oto::ozYaz(string a, int b, char c, bool d) {
     marka = a;

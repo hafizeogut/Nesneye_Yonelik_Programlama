@@ -63,5 +63,8 @@
     "iosfwd": "cpp",
     "new": "cpp",
     "string": "cpp"
-  }
+  },
+  "editor.fontSize": 12,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.comments.ignoreEmptyLines": true
 }
