@@ -1,5 +1,4 @@
-#include <conio.h>
-#include <iostream.h>
+
 #include <iostream>
 #include <string>
 
@@ -49,6 +48,5 @@ int main() {
     // Vergi hesaplanıyor ve ekrana yazdırılıyor
     cout << "Ödenecek Vergi: " << oto.verHes(27500, true) << " TL" << endl;
 
-    getch();
     return 0;
 }
