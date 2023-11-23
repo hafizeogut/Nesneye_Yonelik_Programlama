@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Nesneye_Yonelik_Programlama/00_Nesneye_Yonelik_Programlama_Ders_Uygulamalari/05_nesne_yonelimli_programlama.cpp",
-      "program": "c:/Nesneye_Yonelik_Programlama/00_Nesneye_Yonelik_Programlama_Ders_Uygulamalari/05_nesne_yonelimli_programlama.cpp/build/Debug/outDebug",
+      "cwd": "c:/Nesneye_Yonelik_Programlama/00_Nesneye_Yonelik_Programlama_Ders_Uygulamalari/06_friend_class",
+      "program": "c:/Nesneye_Yonelik_Programlama/00_Nesneye_Yonelik_Programlama_Ders_Uygulamalari/06_friend_class/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
