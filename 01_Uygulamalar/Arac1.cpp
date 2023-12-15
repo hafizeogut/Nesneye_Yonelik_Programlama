@@ -15,7 +15,7 @@ class Arac{
 			
 		}
 		void aracGoster(){
-			cout<<model<<" "<<endl;
+			cout<<"Arac: "<<model<<" "<<endl;
 		}
 		void aracSur(){
 			cout<<"arac suruluyor"<<endl;
@@ -46,7 +46,7 @@ class Oto:public Arac{
 			cout<<"oto durduruldu"<<endl;
 		}
 		void aracGoster(){
-			cout<<model<<" "<<yakit<<" "<<yil<<endl;
+			cout<<"Oto: "<<model<<" "<<yakit<<" "<<yil<<endl;
 		}
 	
 };
@@ -74,7 +74,7 @@ class Eoto:public Oto,public Servis{
 			this->bataryaSeviyesi=this->bataryaSeviyesi+sarjMik;
 		}
 		void aracGoster(){
-			cout<<model<<" "<<yil<<" "<<bataryaSeviyesi<<endl;
+			cout<<"EOto: "<<model<<" "<<yil<<" "<<bataryaSeviyesi<<endl;
 		}
 };
 
@@ -90,7 +90,7 @@ int main(){
 	o->aracGoster();
 	o->aracSur();
 	o->otoDurdur();
-	
+	cout<<"---"<<endl;
 	
 	Eoto *eo=new Eoto("ticari",2024,20);
 	eo->aracGoster();
@@ -99,4 +99,5 @@ int main(){
 	eo->sarjEt(60);
 	eo->aracGoster();
 	eo->servisCagir();
+	cout<<"---"<<endl;
 }
