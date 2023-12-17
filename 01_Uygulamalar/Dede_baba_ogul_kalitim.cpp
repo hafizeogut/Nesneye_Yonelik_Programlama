@@ -9,12 +9,12 @@ class Dede{
 		Dede() {
 			cout <<"Dede-DC" << endl; ad="Hamdi";    
 		}
-		void icecekSoyle()	{
+		void virtual icecekSoyle()	{
 			cout << ad << " dede ayran soyledi." << endl;	
 		} 
 	private:
 		void atSur() {	
-			cout << "Dede at suruyor." << endl;
+			cout << "Dede at suruyor." << endl<<endl;
 		}
 };
 
@@ -34,7 +34,7 @@ class Baba : public Dede{
 			cout << ad << " baba cay soyledi." << endl;  
 		} 
 		void icecekSoyle(int i){  
-			cout << ad << " baba " << i << " cay soyledi." << endl;  
+			cout << ad << " baba " << i << " cay soyledi." << endl <<endl;  
 		} 
 };
 
@@ -47,7 +47,7 @@ class Dayi{
 			cout << "dayi cappicino soyledi." << endl;
 		}
 		void gezmeyeGit(){	
-			cout << " dayi tatili" << endl;
+			cout << " dayi tatili" << endl<<endl;
 		}
 };
 
@@ -56,7 +56,7 @@ class Cocuk : public Baba , public Dayi /*  public Dede */ {
 		string hesKodu;
 	public:
 		Cocuk() {
-			cout <<"Cocuk-DC" << endl<<endl; 
+			cout <<"Cocuk-DC" << endl; 
 			ad = "Zafer"; tc = 1223; 
 			hesKodu = "xyz";
 		}
@@ -67,21 +67,19 @@ class Cocuk : public Baba , public Dayi /*  public Dede */ {
 
 int main()
 {
-	//Dede *d = new Dede();		
-	//d->icecekSoyle();  
+	Dede *d = new Dede();		
+	d->icecekSoyle();  
 	
-	//Baba *b = new Baba(); 		
-	//b->icecekSoyle();
+	Baba *b = new Baba(); 		
+	b->icecekSoyle();
 	
-	//Cocuk *c = new Cocuk(); 	
-	//c->icecekSoyle();
+	Cocuk *c = new Cocuk(); 	
+	c->icecekSoyle();
 	
 	
-	//Dede *d1 = new Cocuk();
-	//d1->icecekSoyle();//polformizm
-	
-	Dayi *dd = new Dede();
-	dd->icecekSoyle();
+	Dede *d1 = new Cocuk();
+	d1->icecekSoyle();//poliformizm
+	 
 	
 	 
 }
